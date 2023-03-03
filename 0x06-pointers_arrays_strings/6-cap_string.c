@@ -16,5 +16,5 @@ i = 0;
 			*(s + i) -= 'a' - 'A';
 		i++;
 	}
-	return (s);
+		return (s);
 }
