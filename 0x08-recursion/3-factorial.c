@@ -6,7 +6,7 @@
  * Return:int
  */
 
-inti factorial(int n)
+int factorial(int n)
 {
 	int x;
 
