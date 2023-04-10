@@ -8,25 +8,22 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	if (b == NULL)
-	{
+	int i;
+	unsigned int j;
+
+	j = 0;
+	if (!b)
 		return (0);
-	}
-	unsigned int j = 0;
-
-	for (int i = 0; b[i] != '\0'; i++)
+	for (i = 0; b[i] != '\0'; i++)
 	{
-		if
-			(b[i] != '0' && b[i] != '1');
-		return (0);
+		if (b[i] != '0' && b[i] != '1')
+			return (0);
 	}
-
-	j <<= 1;
-	if
-		(b[i] == '1');
+	for (i = 0; b[i] != '\0'; i++)
 	{
-		j += 1;
+		j <<= 1;
+		if (b[i] == '1')
+			j += 1;
 	}
-
 	return (j);
 }
