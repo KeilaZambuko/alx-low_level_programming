@@ -5,7 +5,7 @@
   * add_nodeint - adds a node at the end  of the list
   * @head: double pointer head
   * @n: int add 
-  * Return: If it fails return NULL
+  * Return: When it fails return NULL
   */
 
 listint_t *add_nodeint_end(listint_t **head, const int n)
