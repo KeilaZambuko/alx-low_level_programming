@@ -1,1 +1,0 @@
-Task about linked lists

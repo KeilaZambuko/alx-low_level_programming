@@ -1,1 +1,0 @@
-task about variadic functions
